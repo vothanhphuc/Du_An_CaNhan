@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.btn-secondary{
+    color: #0d6efd;
+    background-color: #fff;
+    border-color: #fff;
+}
+.sec_01{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    /* justify-content:space-around; */
+    position: relative;
+}
+.sec_01 img{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+.nav{
+    position: absolute;
+    top: 45%;
+    left: 25%;
+}
+.lg{
+    position: absolute;
+    top: 35%;
+    left: 70%;
+}
+/* sec_02 */
+.carousel-inner{
+    height: 400px;
+}
+
+/* sec_03 */
+.sec_03{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+}
+.free{
+    background-color: rgb(238, 238, 238);
+    width: 100%;
+    height: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.free h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(22, 16, 16);
+}
+.platform{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.plat_01{
+    background-image: url(/img/banner5.jpg);
+    background-size: cover;
+    width: 40%;
+    height: 70%;
+    margin-right: 35px;
+    padding: 40px 35px;
+    background-color: rgba(0 , 0, 0 ,0.5 );
+}
+.plat_02{
+    background-image: url(/img/banner4.jpg);
+    background-size: cover;
+    width: 40%;
+    height: 70%;
+    margin-right: 35px;
+    padding: 40px 35px;
+    background-color: rgba(0 , 0, 0 ,0.5 );
+}
+
+.platform h1{
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+.platform button{
+    width: 30%;
+    height: 30%;
+    color: #fff;
+    font-weight: bold;
+    background-color: rgba(252, 252, 252, 0);
+    border: 2px solid #fff;
+}
+
+/* sec_04 */
+.sec_04{
+    width: 100%;
+    height: 1150px;
+    background-color: rgb(238, 238, 238);
+}
+.sec_04 h1{
+    margin-left: 70px;
+    margin-bottom: 35px;
+    font-weight: bold;
+}
+.deal{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.deal_item{
+    width: 15%;
+    height: 100%;
+}
+.deal_item img{
+    width: 75%;
+}
+.deal_item p{
+    margin-top: 15px;
+    font-weight: bold;
+    line-height: 25px;
+}
+/* sec_05 */
+.sec_05{
+    background-image: url(/img/banner5.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+}
+.sec_05 h1{
+    color: #fff;
+}
+
+/* sec_06 */
+.sec_06{
+    width: 100%;
+    height: 650px;
+    padding-top: 45px;
+}
+.shop{
+    padding-left: 145px;
+    padding-bottom: 40px;
+}
+.with_us{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+}
+.with_item{
+    width: 20%;
+    height: 85%;
+}
+.with_item img{
+    width: 85%;
+}
+.with_item p{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+#price{
+    color: crimson;
+}
+.with_item p:hover{
+    color: crimson;
+}
+/* SEC_07 */
+
+.sec_07{
+    width: 100%;
+    height: 400px;
+    background-image: url(/img/banner3.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.review{
+    width: 25%;
+    height: 45%;
+}
+.review p{
+    font-size: 18px;
+    line-height: 28px;
+    color: #888;
+}
+.review h1{
+    color: #fff;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.review h2{
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 24px;
+    color: #ee4266;
+}
+.r_view{
+    background-color: #fff;
+    height: 150px;
+}
+.r_view p{
+    padding: 25px   ;
+}
+.r_view i{
+    color: #ee4266;
+}
+.exa h1{
+    font-size: 18px;
+    line-height: 28px;
+}
+.exa p{
+    color: #fff;
+    opacity: 0.9;
+}
+/* SEC_08 */
+.sec_08{
+    width: 100%;
+    height: 450px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.gmail{
+    width: 60%;
+    padding: 75px 50px;
+}
+.gmail i{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.gmail h1{
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+}
+.gmail p{
+    font-size: 18px;
+    line-height: 28px;
+    color: #888;
+    text-align: center;
+}
+.input-group{
+    width: 65%;
+    height: 50px;
+    margin-left: 140px;
+    margin-bottom: 15px;
+}
+
+/* SEC_09 */
+.sec_09{
+    width: 100%;
+    height: 550px;
+    background-color: black;
+}
+.offer{
+    width: 70%;
+    height: 125px;
+    padding: 15px 105px;
+}
+.offer h1{
+    font-size: 40px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 15px;
+    display: block;
+    line-height: 50px;
+}
+.use{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.useful h1{
+    color: #fff;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: capitalize;
+    margin-bottom: 32px;
+    font-weight: 600;
+}
+.useful ul{
+    margin: 0;
+    padding: 0;
+}
+.useful li{
+    list-style: none;
+    display: block;
+    margin-bottom: 10px;
+}
+.useful a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #888;
+}
+.useful a:hover{
+    color: #fff;
+}
+.useful i{
+    font-size: 45px;
+    color: #fff;
+}
