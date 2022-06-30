@@ -594,6 +594,7 @@
     .use{
         flex-direction: column;
         padding: 2em;
+        height: 150vh;
     }
     .useful i {
         font-size: 65px;
@@ -601,6 +602,6 @@
 }
 @media only screen and (max-width: 994px){
     .sec_09{
-        height: 110vh;
+        height: 200vh;
     }
 }
